@@ -15,3 +15,25 @@ Implementation of AWS managed Dadabase RDS with Kubernetes
 
 ##### For this particular setup i used Click-Ops to set up RDS see the terraform module to see how to set up RDS in terraform
 
+![alt text](IMG-Screenshots/Screenshot_20260727_225830.png)
+
+![alt text](IMG-Screenshots/Screenshot_20260727_230648.png)
+
+Copy the Endpoint to serve as the ExternalName url address of the database
+
+![alt text](IMG-Screenshots/Screenshot_20260727_231816.png)
+
+Modify it in the manifest .yaml file accordingly.  Note that security is not the subject matter and the is why the secret `rds-mysql-secret` is so open. also be aware that since it is string Data:, we did not  encode the username and password with base64. 
+
+![alt text](IMG-Screenshots/Screenshot_20260728_003013.png)
+
+##### service type `ExternalName` was used to capture the rds Enpoint which was copied form AWS
+Note that init container was created that will create the database `bankappdb` which is required for the application to start. init container will start and die after its work is done.
+##### Also `admin` was used in palce of `root` because that was what i used when creating the database using ClickOps . 
+![alt text](IMG-Screenshots/Screenshot_20260728_003302.png)
+
+![alt text](IMG-Screenshots/Screenshot_20260728_003323.png)
+
+
+
+
