@@ -35,6 +35,8 @@ Note that init container was created that will create the database `bankappdb` w
 ![alt text](IMG-Screenshots/Screenshot_20260728_003323.png)
 
 Create all resources using the manifest.yaml
+ 
+ At a point, I faced config challenges, so I deleted the RDS and created another one .... bringing about a change in ExternalName / Endpoint Address  
 
 ![alt text](IMG-Screenshots/Screenshot_20260727_233536.png)
 
