@@ -9,5 +9,9 @@ Implementation of AWS managed Dadabase RDS with Kubernetes
 - [ ] AWS CLI and Configure
 - [ ] Terraform and use the EKS-Terraform Module
 - [ ] Install Kubectl
-- [ ] Install Ekctl
-- [ ] 
+- [ ] Install Ekctl 
+- [ ] kubeconfig to connect  `aws eks --region us-east-1 update-kubeconfig --name bnj-cluster`
+
+
+##### For this particular setup i used Click-Ops to set up RDS see the terraform module to see how to set up RDS in terraform
+
