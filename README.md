@@ -34,6 +34,18 @@ Note that init container was created that will create the database `bankappdb` w
 
 ![alt text](IMG-Screenshots/Screenshot_20260728_003323.png)
 
+Create all resources using the manifest.yaml
+
+![alt text](IMG-Screenshots/Screenshot_20260727_233536.png)
+
+It worked  , i created acoount and gave myself ₦40,000,000 UD :joy:
+![alt text](IMG-Screenshots/Screenshot_20260728_003013.png)
+
+![alt text](IMG-Screenshots/Screenshot_20260728_003458.png)
+
+
+
+
 
 
 
