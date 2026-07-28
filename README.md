@@ -46,11 +46,13 @@ It worked  , i created acoount and gave myself ₦40,000,000 UD :joy:
 
 ![alt text](IMG-Screenshots/Screenshot_20260728_003458.png)
 
-Created test-pod.yaml to really check and login our RDS from CLI
+Created test-pod.yaml to really check and login our RDS from CLI..... See Screenshots
 
 ![alt text](IMG-Screenshots/Screenshot_20260728_023015.png)
 
 ![alt text](IMG-Screenshots/Screenshot_20260728_004125.png)
+
+
 
 
 
