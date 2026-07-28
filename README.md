@@ -52,9 +52,26 @@ Created test-pod.yaml to really check and login our RDS from CLI..... See Screen
 
 ![alt text](IMG-Screenshots/Screenshot_20260728_004125.png)
 
+mysql-client container is not running . Note the Sleep:3600 shows the pod will not terminate.
+
+![alt text](IMG-Screenshots/Screenshot_20260728_004406.png)
+
+![alt text](IMG-Screenshots/Screenshot_20260728_004704.png)
+
+`kubectl exec -it mysql-client -n webapps --bash` to exec into the mysql-client pod
+
+`mysql -h < RDS-ENDPOINT-ADDRESS > -u admin -p` the enter the login password...... see screenshots
+
+![alt text](IMG-Screenshots/Screenshot_20260728_004704.png)
+
+![alt text](IMG-Screenshots/Screenshot_20260728_004932.png)
 
 
+ScreenShots from AWS............
 
+![alt text](IMG-Screenshots/Screenshot_20260728_005135.png)
+
+![alt text](IMG-Screenshots/Screenshot_20260728_005217.png)
 
 
 
